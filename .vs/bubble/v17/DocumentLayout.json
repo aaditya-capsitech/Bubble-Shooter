@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Unity-Projects\\bubble\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|c:\\unity-projects\\bubble\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|C:\\Unity-Projects\\bubble\\assets\\scripts\\playerbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|C:\\Unity-Projects\\bubble\\assets\\scripts\\bubblespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bubblespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|C:\\Unity-Projects\\bubble\\assets\\scripts\\randombubblespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randombubblespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|C:\\Unity-Projects\\bubble\\assets\\scripts\\bubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9B3E71-47BC-B220-F6D6-10337F401E99}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwEUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T05:45:29.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RandomBubbleSpawner.cs",
+              "DocumentMoniker": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\RandomBubbleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomBubbleSpawner.cs",
+              "ToolTip": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\RandomBubbleSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RandomBubbleSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:09:21.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BubbleSpawner.cs",
+              "DocumentMoniker": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\BubbleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BubbleSpawner.cs",
+              "ToolTip": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\BubbleSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BubbleSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T09:00:03.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerBubble.cs",
+              "DocumentMoniker": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\PlayerBubble.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBubble.cs",
+              "ToolTip": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\PlayerBubble.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBubble.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T08:28:59.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bubble.cs",
+              "DocumentMoniker": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\Bubble.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bubble.cs",
+              "ToolTip": "C:\\Unity-Projects\\bubble\\Assets\\Scripts\\Bubble.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bubble.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T13:00:04.564Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
