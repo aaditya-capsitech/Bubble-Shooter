@@ -21,19 +21,43 @@ public class PlayerBubble : MonoBehaviour
             {
                 if (UIManager.instance != null)
                     UIManager.instance.AddScore(connected.Count);
+
                 foreach (Bubble b in connected)
                 {
+                    if (AudioManager.instance != null)
+                        AudioManager.instance.PlayAudio();
+
+                    Color popColor = GetBubbleColor(b.type);
+                    if (BubblePop.instance != null)
+                        BubblePop.instance.PlayEffect(b.transform.position, popColor);
+
                     Destroy(b.gameObject);
                 }
+
+                if (BubblePop.instance != null)
+                    BubblePop.instance.PlayEffect(transform.position, GetBubbleColor(type));
+
                 Destroy(gameObject);
+                //helper 
 
+                Color GetBubbleColor(Bubble.BubbleColor type)
+                {
+                    switch (type)
+                    {
+                        case Bubble.BubbleColor.Red: return Color.red;
+                        case Bubble.BubbleColor.Blue: return Color.blue;
+                        case Bubble.BubbleColor.Green: return Color.green;
+                        case Bubble.BubbleColor.Yellow: return Color.yellow;
+                        default: return Color.white;
+                    }
+                }
 
-                if (FindObjectsOfType<Bubble>().Length == 0)
+                if (FindObjectsOfType<Bubble>().Length == 4)
                 {
                     if (UIManager.instance != null)
                         UIManager.instance.ShowWin();
                 }
-            }
+            }   
             else
             {
                 Rigidbody2D rb = GetComponent<Rigidbody2D>();

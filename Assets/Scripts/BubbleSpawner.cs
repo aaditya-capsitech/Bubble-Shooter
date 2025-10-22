@@ -22,7 +22,7 @@ public class BubbleSpawner : MonoBehaviour
             if (EventSystem.current.IsPointerOverGameObject()) return;
             ShootCurrentBubble();
         }
-    }
+    }     
 
     void SpawnNextBubble()
     {

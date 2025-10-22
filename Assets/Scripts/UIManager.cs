@@ -17,8 +17,9 @@ public class UIManager : MonoBehaviour
 
     public GameObject gameOverPanel;
     public TMP_Text gameOverText;
-    public TMP_Text timerText; 
+    public TMP_Text timerText;
 
+    
     private void Awake()
     {
         if (instance == null)
@@ -51,6 +52,7 @@ public class UIManager : MonoBehaviour
             isPaused = false;
         }
     }
+    
     public void ShowWin()
     {
         if (winPanel != null)
