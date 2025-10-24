@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class RandomBubbleSpawner : MonoBehaviour
 {
-    public GameObject[] bubblePrefabs; 
-    public int rows = 6;               
-    public int columns = 7;           
-    public float bubbleSpacing = 0.5f; 
-    public Vector2 startPosition = new Vector2(-3.5f, 3f); 
-
+    public GameObject[] bubblePrefabs;
+    public int rows = 6;
+    public int columns = 7;
+    public float bubbleSpacing = 0.5f;
+    public Vector2 startPosition = new Vector2(-3.5f, 3f);
+    public Transform transform;
     void Start()
     {
         SpawnBubbleGrid();
@@ -28,7 +28,7 @@ public class RandomBubbleSpawner : MonoBehaviour
                     x += bubbleSpacing / 2f;
 
                 Vector3 pos = new Vector3(x, y, 0);
-                Instantiate(bubblePrefabs[index], pos, Quaternion.identity);
+                Instantiate(bubblePrefabs[index], pos, Quaternion.identity, transform);
             }
         }
     }

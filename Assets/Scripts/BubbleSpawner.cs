@@ -3,7 +3,7 @@ using UnityEngine.EventSystems;
 
 public class BubbleSpawner : MonoBehaviour
 {
-    public GameObject[] shootingPrefabs; 
+    public GameObject[] shootingPrefabs;
     public Transform shootingPoint;
     public float bubbleSpeed = 20f;
 
@@ -22,7 +22,7 @@ public class BubbleSpawner : MonoBehaviour
             if (EventSystem.current.IsPointerOverGameObject()) return;
             ShootCurrentBubble();
         }
-    }     
+    }
 
     void SpawnNextBubble()
     {
@@ -69,3 +69,4 @@ public class BubbleSpawner : MonoBehaviour
         Invoke(nameof(SpawnNextBubble), 0.3f);
     }
 }
+

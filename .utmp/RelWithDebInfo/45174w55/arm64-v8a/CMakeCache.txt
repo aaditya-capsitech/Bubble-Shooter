@@ -136,7 +136,7 @@ CMAKE_LIBRARY_OUTPUT_DIRECTORY:UNINITIALIZED=C:\Unity-Projects\bubble\Library\Be
 CMAKE_LINKER:FILEPATH=C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/NDK/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld.exe
 
 //make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/Unity/Hub/Editor/6000.0.58f2/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/cmake/3.22.1/bin/ninja.exe
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/Unity/Hub/Editor/60000~1.58F/Editor/Data/PLAYBA~1/ANDROI~1/SDK/cmake/322~1.1/bin/ninja.exe
 
 //Flags used by the linker during the creation of modules.
 CMAKE_MODULE_LINKER_FLAGS:STRING=

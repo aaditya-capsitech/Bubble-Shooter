@@ -52,7 +52,7 @@ public class PlayerBubble : MonoBehaviour
                     }
                 }
 
-                if (FindObjectsOfType<Bubble>().Length == 4)
+                if (FindObjectsOfType<Bubble>().Length == 0)
                 {
                     if (UIManager.instance != null)
                         UIManager.instance.ShowWin();
@@ -94,7 +94,7 @@ public class PlayerBubble : MonoBehaviour
         while (toCheck.Count > 0)
         {
             Bubble current = toCheck.Dequeue();
-            Collider2D[] hits = Physics2D.OverlapCircleAll(current.transform.position, 0.6f);
+            Collider2D[] hits = Physics2D.OverlapCircleAll(current.transform.position, 0.9f);
 
             foreach (Collider2D c in hits)
             {

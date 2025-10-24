@@ -26,6 +26,7 @@ public class TimerManager : MonoBehaviour
             }
             if (UIManager.instance != null)
                 UIManager.instance.ShowGameOver();
+
         }
     }
 }
