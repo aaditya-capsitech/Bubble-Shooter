@@ -1,10 +1,11 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 
 public class PlayerBubble : MonoBehaviour
 {
     public Bubble.BubbleColor type;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Bubble hitBubble = collision.gameObject.GetComponent<Bubble>();
@@ -57,7 +58,7 @@ public class PlayerBubble : MonoBehaviour
                     if (UIManager.instance != null)
                         UIManager.instance.ShowWin();
                 }
-            }   
+            }
             else
             {
                 Rigidbody2D rb = GetComponent<Rigidbody2D>();
@@ -72,14 +73,18 @@ public class PlayerBubble : MonoBehaviour
         }
         else
         {
+
             Debug.Log("Not same color");
             Rigidbody2D rb = GetComponent<Rigidbody2D>();
             if (rb != null)
             {
                 rb.linearVelocity = Vector2.zero;
-                rb.bodyType = RigidbodyType2D.Kinematic;
+               // rb.bodyType = RigidbodyType2D.Kinematic;
             }
             transform.SetParent(collision.transform);
+
+            if (BubbleSpawner.instance != null)
+                BubbleSpawner.instance.RegisterMissShot();
         }
     }
     // Recursive neighbor check
@@ -94,7 +99,7 @@ public class PlayerBubble : MonoBehaviour
         while (toCheck.Count > 0)
         {
             Bubble current = toCheck.Dequeue();
-            Collider2D[] hits = Physics2D.OverlapCircleAll(current.transform.position, 0.9f);
+            Collider2D[] hits = Physics2D.OverlapCircleAll(current.transform.position, 1);
 
             foreach (Collider2D c in hits)
             {

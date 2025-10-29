@@ -97,6 +97,11 @@ public class UIManager : MonoBehaviour
     }
     public void ShowGameOver()
     {
+        if (BubbleSpawner.instance != null)
+
+        {
+            BubbleSpawner.instance.HideAllBubbles();
+        }
         if (gameOverPanel != null)
             gameOverPanel.SetActive(true);
         if (gameOverText != null)
